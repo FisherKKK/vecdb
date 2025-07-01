@@ -4,3 +4,4 @@ project(VectorSearchDemo)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(vector_search_demo main.cpp hnsw.cpp ivf.cpp)
+add_executable(recall_test recall_test.cpp hnsw.cpp)
