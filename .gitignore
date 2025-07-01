@@ -1,0 +1,5 @@
+# Build directory
+build/
+
+# Other
+.DS_Store
